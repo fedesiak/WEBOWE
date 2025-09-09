@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "VWnI2U2tXBzyQb56bzbBVR1GkO0ti95N6d5+6zWygyk=",
+  "Source": "cw1",
+  "BasePath": "_content/cw1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "cw1\\wwwroot",
+      "Source": "cw1",
+      "ContentRoot": "C:\\Users\\op34\\Desktop\\09.09.25\\cw1\\wwwroot\\",
+      "BasePath": "_content/cw1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\op34\\Desktop\\09.09.25\\cw1\\wwwroot\\index.css",
+      "SourceId": "cw1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\op34\\Desktop\\09.09.25\\cw1\\wwwroot\\",
+      "BasePath": "_content/cw1",
+      "RelativePath": "index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.css"
+    },
+    {
+      "Identity": "C:\\Users\\op34\\Desktop\\09.09.25\\cw1\\wwwroot\\index.html",
+      "SourceId": "cw1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\op34\\Desktop\\09.09.25\\cw1\\wwwroot\\",
+      "BasePath": "_content/cw1",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
