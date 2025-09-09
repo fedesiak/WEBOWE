@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "mYIIRbfLxnrNT7REbfPaulGqZNOqBzCXhL+FLcxkIKs=",
+  "Source": "zad1",
+  "BasePath": "_content/zad1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "zad1\\wwwroot",
+      "Source": "zad1",
+      "ContentRoot": "C:\\Users\\op34\\Desktop\\09.09.25\\zad1\\wwwroot\\",
+      "BasePath": "_content/zad1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\op34\\Desktop\\09.09.25\\zad1\\wwwroot\\index.css",
+      "SourceId": "zad1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\op34\\Desktop\\09.09.25\\zad1\\wwwroot\\",
+      "BasePath": "_content/zad1",
+      "RelativePath": "index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.css"
+    },
+    {
+      "Identity": "C:\\Users\\op34\\Desktop\\09.09.25\\zad1\\wwwroot\\index.html",
+      "SourceId": "zad1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\op34\\Desktop\\09.09.25\\zad1\\wwwroot\\",
+      "BasePath": "_content/zad1",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

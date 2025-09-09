@@ -1,0 +1,46 @@
+/* Reset podstawowych marginesów i paddingów */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ogólne style dla całej strony */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Styl nagłówka */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+/* Styl głównej części */
+main {
+    padding: 20px;
+    background-color: white;
+    min-height: 300px;
+    font-size: 1.2em;
+}
+
+/* Styl stopki */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
+
+/* Opcjonalne: Dodanie odstępów wokół całej strony */
+body {
+    margin: 0 auto;
+    max-width: 960px;
+}
