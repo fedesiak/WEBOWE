@@ -1,0 +1,4 @@
+[
+    {"Id": 1, "Brand": "Dell", "Model": "XPS 13", "Year": 2020},
+    {"Id": 2, "Brand": "HP", "Model": "Spectre x360", "Year": 2019}
+]

@@ -1,0 +1,32 @@
+@model List<Computers.Models.Computer>
+@{
+    int i = 0;
+    i++;
+}
+<h1>
+    Computers On Sale - Get All
+</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Marka</th>
+            <th>Model</th>
+            <th>Rok</th>
+            <th> ---- </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var c in Model)
+        {
+            <tr>
+                <td>@c.Brand</td>
+                <td>@c.Model</td>
+                <td>@c.Year</td>
+                <td>
+                    <a asp-action="DeleteComputer" asp-route-id="@c.Id" class="btn btn-danger">Usuń</a>
+                    <a asp-action="EditComputer" asp-route-id="@c.Id" class="btn btn-secondary">Edytuj</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
