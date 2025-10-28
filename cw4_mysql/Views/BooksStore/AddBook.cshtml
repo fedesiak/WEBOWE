@@ -1,0 +1,43 @@
+@model Book
+<h1>Dodaj nowa ksiazke</h1>
+<form asp-action="AddBook" method="post">
+
+<div class="row m-2">
+<label class="col-3 text-end" asp-for="Title">
+<input class="col-6" type="text" asp-for="Title">
+<span class="col-3 text-danger" asp-validation-for="Title"></span>
+
+</label>
+</div>
+
+<div class="row m-2">
+<label class="col-3 text-end" asp-for="Author">
+<input class="col-6" type="text" asp-for="Author">
+<span class="col-3 text-danger" asp-validation-for="Author"></span>
+
+</label>
+</div>
+
+<div class="row m-2">
+<label class="col-3 text-end" asp-for="Price">
+<input class="col-6" type="text" asp-for="Price">
+<span class="col-3 text-danger" asp-validation-for="Price"></span>
+
+</label>
+</div>
+
+<div class="row m-2">
+<label class="col-3 text-end" asp-for="RealizeDate">
+<input class="col-6" type="text" asp-for="RealizeDate">
+<span class="col-3 text-danger" asp-validation-for="RealizeDate"></span>
+
+</label>
+</div>
+
+<div class="row m-2">
+<div class="col-3"></div>
+<div class="col-6">
+<button type="submit" class="btn btn-primary w-100">Dodaj ksiazke</button></div>
+
+</div>
+</form>
