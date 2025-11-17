@@ -1,0 +1,5 @@
+dotnet tool install -g Microsoft.Web.LibraryManager.Cli
+
+dotnet new mvc -o Computers
+
+python3 suownik.py
