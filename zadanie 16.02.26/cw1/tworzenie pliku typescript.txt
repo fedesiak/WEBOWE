@@ -1,0 +1,23 @@
+git -v
+
+npm init -y
+
+npm i typescript -d
+
+npx tsc -init
+
+npm i @types/node -D
+
+"tworzymy cw1.ts w src" "src i dist dodane z reki"
+
+"w tsconfig.json rootdir outdir i types zmiana na node"
+
+npx tsc -w
+
+node dist/cw1.js
+
+"mod1.ts z reki w /src"
+
+"edycja mod1.ts cs1.ts"
+
+
