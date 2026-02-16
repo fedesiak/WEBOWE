@@ -21,3 +21,5 @@ node dist/cw1.js
 "edycja mod1.ts cs1.ts"
 
 
+
+brakuje pliku node_modules w cw1
